@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # TFM — Predicción del bienestar laboral a partir de reseñas de Glassdoor
 
-**Trabajo de Fin de Máster — UNED**  
+**Trabajo de Fin de Máster — UPF-BSM**  
 Uso de características NLP extraídas de reseñas de Glassdoor para predecir valoraciones de bienestar laboral, con experimentos de generalización entre mercados (S&P 500 → FTSE 100).
 
 ---
@@ -39,6 +39,7 @@ repo/
 ├── analysis/                       # Scripts y outputs de análisis de correlación
 ├── results/                        # Resultados: PDFs, importancia de features, Excel
 └── docs/                           # Papers de referencia y guía de ejecución
+└── datos/                          # Todos los datos (S&P500, FTSE100, Dashaboard)
 ```
 
 ---
@@ -61,7 +62,7 @@ Cada CSV ya contiene las siguientes features NLP pre-computadas:
 | Similitud JDI (RoBERTa) | `pros_sim_JDI_*`, `cons_sim_JDI_*` |
 | Vocabulario ODI | `ODI_related_vocab_pros`, `ODI_related_vocab_cons` |
 
-> **Nota:** Estos datos (~16 GB) no están en el repo. Contacta con los autores para obtenerlos o vuelve a ejecutar el scraper (requiere cuenta de Glassdoor y tiempo de cómputo considerable).
+> **Nota:** Estos datos (~16 GB)  están en la carpeta "datos".
 
 ---
 
@@ -79,7 +80,7 @@ Lee los CSVs de reseñas de `01_outputs_p1/01_Reviews/` y los enriquece con dato
 
 **Inputs necesarios:**
 - `01_outputs_p1/01_Reviews/*.csv` (del Paso 0)
-- `02_other_inputs_preprocessing/01_State and company data/` ✅ incluido en el repo
+- `02_other_inputs_preprocessing/01_State and company data/` 
 
 ---
 
@@ -138,7 +139,7 @@ Los paquetes de entrenamiento de cada grupo están en `vertex/grupo*_vertex/`.
 
 ### Paso 5 — Experimentos cross-market
 
-Los CSVs del FTSE 100 ya contienen todas las features NLP pre-computadas (EmoLex, Empath, NLTK SIA, similitudes ODI/JDI basadas en RoBERTa, densidades POS). Ver [Datos FTSE 100](#datos-ftse-100-no-incluidos).
+Los CSVs del FTSE 100 ya contienen todas las features NLP pre-computadas (EmoLex, Empath, NLTK SIA, similitudes ODI/JDI basadas en RoBERTa, densidades POS). 
 
 **Experimento B — FTSE100 → FTSE100 (baseline dentro del mercado UK):**
 ```bash
@@ -159,10 +160,6 @@ python scripts/generate_crosstraining_report.py
 
 ## Qué no está en el repo
 
-### Features NLP de las reseñas SP500 (`01_outputs_p1/`)
-
-Los CSVs por empresa con todas las features pre-computadas no están incluidos (~16 GB). Son la entrada directa al Paso 2. Contacta con los autores o vuelve a ejecutar el scraper.
-
 ### Datos preprocesados (`03_outputs_data_preprocessing/`)
 
 Se generan en el Paso 3. Vuelve a ejecutar `notebooks/Data preprocessing.ipynb`.
@@ -170,14 +167,6 @@ Se generan en el Paso 3. Vuelve a ejecutar `notebooks/Data preprocessing.ipynb`.
 ### Outputs de modelos (`05_outputs_modeling/`)
 
 Se generan en el Paso 4. Vuelve a ejecutar los scripts de entrenamiento.
-
-### Datos FTSE 100 (`ftse100/data/`)
-
-Los dos CSVs del FTSE 100 superan el límite de 100 MB de GitHub:
-- `dataframes_Train_scrapeadas.csv` — 557 MB
-- `dataframes_Test_scrapeadas.csv` — 140 MB
-
-Para reproducir los experimentos cross-market, coloca estos archivos en `ftse100/data/` antes de ejecutar los scripts. Ver `ftse100/data/README.md`.
 
 ---
 
