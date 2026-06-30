@@ -1,0 +1,88 @@
+{
+  "name": "TFM — Tally → FastAPI → CSV Gold",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "tally-predict",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "node-webhook",
+      "name": "Tally Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 300],
+      "webhookId": "tally-predict-webhook-id"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 1. Extraer campos del payload Tally.so\n// Estructura: { data: { fields: [{ label, value }], submittedAt } }\nconst fields = $json?.data?.fields ?? [];\n\nfunction getField(label) {\n  const f = fields.find(f => f.label?.toLowerCase() === label.toLowerCase());\n  if (!f) return '';\n  return Array.isArray(f.value) ? (f.value[0] ?? '') : String(f.value ?? '');\n}\n\nconst submittedAt = $json?.data?.submittedAt ?? new Date().toISOString();\n\nreturn [{\n  json: {\n    summary:         getField('Summary'),\n    pros:            getField('Pros'),\n    cons:            getField('Cons'),\n    department:      getField('Department') || 'Engineering & Tech',\n    seniority:       getField('Seniority')  || 'Senior',\n    gender:          getField('Gender')     || 'Prefer not to say',\n    submission_date: submittedAt.split('T')[0],\n    _submitted_at:   submittedAt\n  }\n}];"
+      },
+      "id": "node-parse",
+      "name": "Parse Tally Fields",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// 2. Llamar a FastAPI /predict\nconst input = $json;\n\nconst body = {\n  summary:         input.summary,\n  pros:            input.pros,\n  cons:            input.cons,\n  department:      input.department,\n  seniority:       input.seniority,\n  gender:          input.gender,\n  submission_date: input.submission_date\n};\n\nconst resp = await fetch('http://localhost:8000/predict', {\n  method:  'POST',\n  headers: { 'Content-Type': 'application/json' },\n  body:    JSON.stringify(body)\n});\n\nif (!resp.ok) {\n  throw new Error(`FastAPI error ${resp.status}: ${await resp.text()}`);\n}\n\nconst prediction = await resp.json();\n\n// Pasar tanto el input original como la predicción\nreturn [{ json: { ...prediction, _input: input } }];"
+      },
+      "id": "node-api",
+      "name": "Call FastAPI",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// 3. Escribir fila en gold.csv\nconst fs = require('fs');\n\n// Ajusta CSV_PATH a la ruta absoluta de Dashboard/gold.csv en tu máquina\nconst CSV_PATH = process.env.GOLD_CSV_PATH || './gold.csv';\nconst COLS = [\n  'timestamp', 'summary', 'pros', 'cons',\n  'department', 'seniority', 'gender',\n  'predicted_rating', 'satisfaction', 'confidence'\n];\n\nconst pred  = $json;\nconst input = pred._input ?? {};\n\nconst row = {\n  timestamp:        new Date().toISOString(),\n  summary:          input.summary          ?? '',\n  pros:             input.pros             ?? '',\n  cons:             input.cons             ?? '',\n  department:       pred.department        ?? input.department ?? '',\n  seniority:        pred.seniority         ?? input.seniority  ?? '',\n  gender:           pred.gender            ?? input.gender     ?? '',\n  predicted_rating: pred.predicted_rating  ?? '',\n  satisfaction:     pred.satisfaction      ?? '',\n  confidence:       pred.confidence        ?? ''\n};\n\nfunction escapeCSV(val) {\n  const s = String(val ?? '');\n  return (s.includes(',') || s.includes('\"') || s.includes('\\n'))\n    ? '\"' + s.replace(/\"/g, '\"\"') + '\"'\n    : s;\n}\n\n// Crear fichero con cabecera si no existe\nif (!fs.existsSync(CSV_PATH)) {\n  fs.writeFileSync(CSV_PATH, COLS.join(',') + '\\n', 'utf8');\n}\n\nfs.appendFileSync(CSV_PATH, COLS.map(c => escapeCSV(row[c])).join(',') + '\\n', 'utf8');\n\nreturn [{ json: { status: 'ok', satisfaction: row.satisfaction, predicted_rating: row.predicted_rating } }];"
+      },
+      "id": "node-csv",
+      "name": "Append CSV Gold",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ status: 'ok', satisfaction: $('Call FastAPI').first().json.satisfaction, predicted_rating: $('Call FastAPI').first().json.predicted_rating }) }}",
+        "options": {}
+      },
+      "id": "node-respond",
+      "name": "Respond OK",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [1120, 300]
+    }
+  ],
+  "connections": {
+    "Tally Webhook": {
+      "main": [
+        [{ "node": "Parse Tally Fields", "type": "main", "index": 0 }]
+      ]
+    },
+    "Parse Tally Fields": {
+      "main": [
+        [{ "node": "Call FastAPI", "type": "main", "index": 0 }]
+      ]
+    },
+    "Call FastAPI": {
+      "main": [
+        [{ "node": "Append CSV Gold", "type": "main", "index": 0 }]
+      ]
+    },
+    "Append CSV Gold": {
+      "main": [
+        [{ "node": "Respond OK", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "id": "tfm-workflow-001"
+}

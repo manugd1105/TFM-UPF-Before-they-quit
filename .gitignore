@@ -1,0 +1,46 @@
+# ── Entornos virtuales ────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Datos grandes (GCS downloads y outputs generados) ─────────────────────────
+(CLOUD)/
+01_outputs_p1/
+03_outputs_data_preprocessing/
+05_outputs_modeling/
+Datos FTSE100/
+
+# ── Datos grandes en extradatos/ ──────────────────────────────────────────────
+extradatos/all_reviews.csv
+extradatos/ftse100_reviews.csv
+extradatos/glassdoor_reviews.csv
+
+# ── Datos FTSE100 (>100 MB — usar Git LFS o descargar aparte) ─────────────────
+ftse100/data/*.csv
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ── Office temp / lock files ──────────────────────────────────────────────────
+~$*.xlsx
+~$*.docx
+
+# ── Claude Code ───────────────────────────────────────────────────────────────
+.claude/
+
+# ── Google Cloud SDK (instalación local) ──────────────────────────────────────
+google-cloud-sdk/
+
+# ── Logs y archivos temporales ────────────────────────────────────────────────
+*.log
+*.tmp
+nohup.out

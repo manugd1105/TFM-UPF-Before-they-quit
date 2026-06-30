@@ -1,0 +1,335 @@
+index,feature,group,importance
+0,summary_charlen,NLP_lengths,0.004918348
+1,summary_wordlen,NLP_lengths,0.00238413
+2,pros_charlen,NLP_lengths,0.023540454
+3,pros_wordlen,NLP_lengths,0.0015473067
+4,cons_charlen,NLP_lengths,0.068949014
+5,cons_wordlen,NLP_lengths,0.0028581293
+6,summary_ld_PDT,NLP_POS_tags,0.001358355
+7,summary_ld_IN,NLP_POS_tags,0.0025031755
+8,summary_ld_``,NLP_POS_tags,0.0016533739
+9,summary_ld_JJS,NLP_POS_tags,0.008763985
+10,summary_ld_RBS,NLP_POS_tags,0.0046516447
+11,summary_ld_NNP,NLP_POS_tags,0.005629554
+12,summary_ld_DT,NLP_POS_tags,0.0068564597
+13,summary_ld_EX,NLP_POS_tags,0.001463827
+14,summary_ld_NNS,NLP_POS_tags,0.0020249833
+15,summary_ld_CC,NLP_POS_tags,0.0019342904
+16,summary_ld_VBD,NLP_POS_tags,0.0027041987
+17,summary_ld_.,NLP_POS_tags,0.0047203037
+18,summary_ld_(,NLP_POS_tags,0.0014982055
+19,summary_ld_UH,NLP_POS_tags,0.0013599838
+20,summary_ld_VBN,NLP_POS_tags,0.008072348
+21,summary_ld_RP,NLP_POS_tags,0.004960179
+22,summary_ld_JJR,NLP_POS_tags,0.0029728655
+23,summary_ld_WDT,NLP_POS_tags,0.0031546673
+24,"summary_ld_,",NLP_POS_tags,0.001684778
+25,summary_ld_VBZ,NLP_POS_tags,0.004763028
+26,summary_ld_MD,NLP_POS_tags,0.002425615
+27,summary_ld_PRP,NLP_POS_tags,0.0038310504
+28,summary_ld_PRP$,NLP_POS_tags,0.0016962376
+29,summary_ld_$,NLP_POS_tags,0.0016038243
+30,summary_ld_WP,NLP_POS_tags,0.0020274976
+31,summary_ld_VBG,NLP_POS_tags,0.0028180152
+32,summary_ld_NN,NLP_POS_tags,0.004800274
+33,summary_ld_CD,NLP_POS_tags,0.0021627943
+34,summary_ld_),NLP_POS_tags,0.0008148012
+35,summary_ld_RBR,NLP_POS_tags,0.0025842458
+36,summary_ld_VBP,NLP_POS_tags,0.0029927653
+37,summary_ld_WRB,NLP_POS_tags,0.0014749363
+38,summary_ld_NNPS,NLP_POS_tags,0.0017200124
+39,summary_ld_TO,NLP_POS_tags,0.019081943
+40,summary_ld_RB,NLP_POS_tags,0.021107802
+41,summary_ld_VB,NLP_POS_tags,0.005183632
+42,summary_ld_JJ,NLP_POS_tags,0.0068664313
+43,pros_ld_PDT,NLP_POS_tags,0.0017314308
+44,pros_ld_IN,NLP_POS_tags,0.0012454839
+45,pros_ld_``,NLP_POS_tags,0.0016898689
+46,pros_ld_JJS,NLP_POS_tags,0.0014835668
+47,pros_ld_RBS,NLP_POS_tags,0.0020181763
+48,pros_ld_NNP,NLP_POS_tags,0.0019109499
+49,pros_ld_DT,NLP_POS_tags,0.003756115
+50,pros_ld_EX,NLP_POS_tags,0.0052006003
+51,pros_ld_NNS,NLP_POS_tags,0.003023792
+52,pros_ld_CC,NLP_POS_tags,0.002323439
+53,pros_ld_VBD,NLP_POS_tags,0.0034630538
+54,pros_ld_POS,NLP_POS_tags,0.0016397041
+55,pros_ld_.,NLP_POS_tags,0.001525566
+56,pros_ld_(,NLP_POS_tags,0.0015314519
+57,pros_ld_UH,NLP_POS_tags,0.0016655554
+58,pros_ld_VBN,NLP_POS_tags,0.0016166567
+59,pros_ld_RP,NLP_POS_tags,0.0016199271
+60,pros_ld_JJR,NLP_POS_tags,0.0021558206
+61,pros_ld_WDT,NLP_POS_tags,0.002067229
+62,pros_ld_FW,NLP_POS_tags,0.0020670118
+63,"pros_ld_,",NLP_POS_tags,0.0040143616
+64,pros_ld_VBZ,NLP_POS_tags,0.0016748414
+65,pros_ld_MD,NLP_POS_tags,0.0047964384
+66,pros_ld_PRP,NLP_POS_tags,0.0023932618
+67,pros_ld_PRP$,NLP_POS_tags,0.0026543338
+68,pros_ld_$,NLP_POS_tags,0.001834739
+69,pros_ld_WP,NLP_POS_tags,0.0018688613
+70,pros_ld_VBG,NLP_POS_tags,0.001487416
+71,pros_ld_NN,NLP_POS_tags,0.0021302928
+72,pros_ld_CD,NLP_POS_tags,0.0018135046
+73,pros_ld_),NLP_POS_tags,0.0013330266
+74,pros_ld_SYM,NLP_POS_tags,0.0
+75,pros_ld_RBR,NLP_POS_tags,0.0016726118
+76,pros_ld_VBP,NLP_POS_tags,0.0037755514
+77,pros_ld_WRB,NLP_POS_tags,0.0018666179
+78,pros_ld_NNPS,NLP_POS_tags,0.0014402777
+79,pros_ld_TO,NLP_POS_tags,0.001435935
+80,pros_ld_RB,NLP_POS_tags,0.0015063137
+81,pros_ld_VB,NLP_POS_tags,0.0022029968
+82,pros_ld_JJ,NLP_POS_tags,0.0023634115
+83,cons_ld_PDT,NLP_POS_tags,0.0015789245
+84,cons_ld_IN,NLP_POS_tags,0.0017916702
+85,cons_ld_``,NLP_POS_tags,0.001888399
+86,cons_ld_JJS,NLP_POS_tags,0.0016290135
+87,cons_ld_RBS,NLP_POS_tags,0.0019208946
+88,cons_ld_DT,NLP_POS_tags,0.0026235278
+89,cons_ld_NNP,NLP_POS_tags,0.008381625
+90,cons_ld_EX,NLP_POS_tags,0.0040560924
+91,cons_ld_NNS,NLP_POS_tags,0.0017078357
+92,cons_ld_CC,NLP_POS_tags,0.0016281692
+93,cons_ld_VBD,NLP_POS_tags,0.0018324384
+94,cons_ld_POS,NLP_POS_tags,0.0018014696
+95,cons_ld_.,NLP_POS_tags,0.0030985142
+96,cons_ld_(,NLP_POS_tags,0.0016813957
+97,cons_ld_VBN,NLP_POS_tags,0.0017687454
+98,cons_ld_UH,NLP_POS_tags,0.001733047
+99,cons_ld_RP,NLP_POS_tags,0.0016771628
+100,cons_ld_JJR,NLP_POS_tags,0.002953126
+101,cons_ld_WDT,NLP_POS_tags,0.0017291727
+102,cons_ld_FW,NLP_POS_tags,0.0016029357
+103,"cons_ld_,",NLP_POS_tags,0.0036396456
+104,cons_ld_VBZ,NLP_POS_tags,0.0013942082
+105,cons_ld_MD,NLP_POS_tags,0.011537614
+106,cons_ld_PRP,NLP_POS_tags,0.0025864518
+107,cons_ld_PRP$,NLP_POS_tags,0.0018691758
+108,cons_ld_$,NLP_POS_tags,0.0017631715
+109,cons_ld_WP,NLP_POS_tags,0.0020097238
+110,cons_ld_VBG,NLP_POS_tags,0.0015773928
+111,cons_ld_NN,NLP_POS_tags,0.0035310767
+112,cons_ld_CD,NLP_POS_tags,0.0033220195
+113,cons_ld_),NLP_POS_tags,0.0018565604
+114,cons_ld_SYM,NLP_POS_tags,0.0010693234
+115,cons_ld_RBR,NLP_POS_tags,0.0015142179
+116,cons_ld_VBP,NLP_POS_tags,0.0016801613
+117,cons_ld_WRB,NLP_POS_tags,0.0018127322
+118,cons_ld_NNPS,NLP_POS_tags,0.0019507693
+119,cons_ld_TO,NLP_POS_tags,0.002563429
+120,cons_ld_RB,NLP_POS_tags,0.0015134452
+121,cons_ld_VB,NLP_POS_tags,0.0032315615
+122,cons_ld_JJ,NLP_POS_tags,0.0017107598
+123,pros_emolex_fear,NLP_EmoLex,0.0017084987
+124,pros_emolex_anger,NLP_EmoLex,0.0017665084
+125,pros_emolex_anticip,NLP_EmoLex,0.0
+126,pros_emolex_trust,NLP_EmoLex,0.0012814918
+127,pros_emolex_surprise,NLP_EmoLex,0.0045253197
+128,pros_emolex_positive,NLP_EmoLex,0.0066722804
+129,pros_emolex_negative,NLP_EmoLex,0.0017538784
+130,pros_emolex_sadness,NLP_EmoLex,0.0016853473
+131,pros_emolex_disgust,NLP_EmoLex,0.0027408963
+132,pros_emolex_joy,NLP_EmoLex,0.0015902085
+133,cons_emolex_fear,NLP_EmoLex,0.0015705689
+134,cons_emolex_anger,NLP_EmoLex,0.0059370217
+135,cons_emolex_anticip,NLP_EmoLex,0.0
+136,cons_emolex_trust,NLP_EmoLex,0.007329133
+137,cons_emolex_surprise,NLP_EmoLex,0.0016990837
+138,cons_emolex_positive,NLP_EmoLex,0.0027937654
+139,cons_emolex_negative,NLP_EmoLex,0.0018489115
+140,cons_emolex_sadness,NLP_EmoLex,0.0018730529
+141,cons_emolex_disgust,NLP_EmoLex,0.023304176
+142,cons_emolex_joy,NLP_EmoLex,0.0015127363
+143,pros_nltk_sia,NLP_NLTK,0.031562112
+144,cons_nltk_sia,NLP_NLTK,0.012751759
+145,ODI_related_vocab_pros,NLP_ODI_vocab,0.0018285983
+146,ODI_related_vocab_cons,NLP_ODI_vocab,0.0022007457
+147,pros_empath_help,NLP_Empath,0.0015520897
+148,pros_empath_office,NLP_Empath,0.0019700744
+149,pros_empath_money,NLP_Empath,0.0017208294
+150,pros_empath_domestic_work,NLP_Empath,0.0017647356
+151,pros_empath_sleep,NLP_Empath,0.0020765755
+152,pros_empath_occupation,NLP_Empath,0.0020248052
+153,pros_empath_family,NLP_Empath,0.0016909679
+154,pros_empath_vacation,NLP_Empath,0.002166026
+155,pros_empath_health,NLP_Empath,0.0020899402
+156,pros_empath_swearing_terms,NLP_Empath,0.0014170742
+157,pros_empath_leisure,NLP_Empath,0.0018081492
+158,pros_empath_suffering,NLP_Empath,0.002530964
+159,pros_empath_wealthy,NLP_Empath,0.0017869219
+160,pros_empath_exercise,NLP_Empath,0.0016716281
+161,pros_empath_home,NLP_Empath,0.0020158095
+162,pros_empath_rage,NLP_Empath,0.0008644585
+163,pros_empath_fun,NLP_Empath,0.0017942237
+164,pros_empath_negative_emotion,NLP_Empath,0.002020424
+165,pros_empath_payment,NLP_Empath,0.0017237752
+166,pros_empath_achievement,NLP_Empath,0.0022537422
+167,cons_empath_help,NLP_Empath,0.0019988948
+168,cons_empath_office,NLP_Empath,0.0015290738
+169,cons_empath_money,NLP_Empath,0.0020812198
+170,cons_empath_domestic_work,NLP_Empath,0.0015838032
+171,cons_empath_sleep,NLP_Empath,0.0019230571
+172,cons_empath_occupation,NLP_Empath,0.0033209778
+173,cons_empath_family,NLP_Empath,0.0019005367
+174,cons_empath_vacation,NLP_Empath,0.002110192
+175,cons_empath_health,NLP_Empath,0.0017901205
+176,cons_empath_swearing_terms,NLP_Empath,0.00957538
+177,cons_empath_leisure,NLP_Empath,0.0016311326
+178,cons_empath_suffering,NLP_Empath,0.0018445427
+179,cons_empath_wealthy,NLP_Empath,0.0020168128
+180,cons_empath_exercise,NLP_Empath,0.0017277021
+181,cons_empath_home,NLP_Empath,0.0019376087
+182,cons_empath_rage,NLP_Empath,0.0018622223
+183,cons_empath_fun,NLP_Empath,0.0024674141
+184,cons_empath_negative_emotion,NLP_Empath,0.0019457992
+185,cons_empath_payment,NLP_Empath,0.0018473692
+186,pros_sim_ODI_Depressed mood,PSYCH_ODI_sim,0.0019084939
+187,cons_sim_ODI_Depressed mood,PSYCH_ODI_sim,0.0018382783
+188,pros_sim_ODI_Sleep alterations,PSYCH_ODI_sim,0.0018054078
+189,cons_sim_ODI_Sleep alterations,PSYCH_ODI_sim,0.003909306
+190,pros_sim_ODI_Fatigue,PSYCH_ODI_sim,0.0077270013
+191,cons_sim_ODI_Fatigue,PSYCH_ODI_sim,0.0053334394
+192,pros_sim_ODI_Worthlessness,PSYCH_ODI_sim,0.0019977386
+193,cons_sim_ODI_Worthlessness,PSYCH_ODI_sim,0.07074656
+194,pros_sim_ODI_Anhedonia,PSYCH_ODI_sim,0.001959349
+195,cons_sim_ODI_Anhedonia,PSYCH_ODI_sim,0.0030778595
+196,pros_sim_ODI_Appetite alterations,PSYCH_ODI_sim,0.002138082
+197,cons_sim_ODI_Appetite alterations,PSYCH_ODI_sim,0.0031497153
+198,pros_sim_ODI_Cognitive impairment,PSYCH_ODI_sim,0.0018100593
+199,cons_sim_ODI_Cognitive impairment,PSYCH_ODI_sim,0.0019858137
+200,pros_sim_ODI_Psycomotor alterations,PSYCH_ODI_sim,0.0019513371
+201,cons_sim_ODI_Psycomotor alterations,PSYCH_ODI_sim,0.016969683
+202,pros_sim_ODI_Suicidal ideation,PSYCH_ODI_sim,0.0018679181
+203,cons_sim_ODI_Suicidal ideation,PSYCH_ODI_sim,0.0024797674
+204,pros_sim_JDI_Work itself,PSYCH_JDI_sim,0.0046981624
+205,cons_sim_JDI_Work itself,PSYCH_JDI_sim,0.0030711442
+206,pros_sim_JDI_Pay,PSYCH_JDI_sim,0.005834824
+207,cons_sim_JDI_Pay,PSYCH_JDI_sim,0.0018389059
+208,pros_sim_JDI_Promotion,PSYCH_JDI_sim,0.0018410252
+209,cons_sim_JDI_Promotion,PSYCH_JDI_sim,0.0022878975
+210,pros_sim_JDI_Supervision,PSYCH_JDI_sim,0.0029270933
+211,cons_sim_JDI_Supervision,PSYCH_JDI_sim,0.012047273
+212,pros_sim_JDI_Coworkers,PSYCH_JDI_sim,0.012629865
+213,cons_sim_JDI_Coworkers,PSYCH_JDI_sim,0.0019850966
+214,GDP per capita,GEO_state_numeric,0.0017424425
+215,Population,GEO_state_numeric,0.0014085091
+216,Precipitation,GEO_state_numeric,0.0014520382
+217,AverageTemperatureF,GEO_state_numeric,0.0012668968
+218,AverageTemperatureAvgHighF,GEO_state_numeric,0.0017431702
+219,AverageTemperatureAvgLowF,GEO_state_numeric,0.0012979078
+220,Republican/lean Rep.,GEO_state_numeric,0.0013975076
+221,No lean,GEO_state_numeric,0.0015290376
+222,Democrat/lean Dem.,GEO_state_numeric,0.0015403416
+223,Crime index,GEO_state_numeric,0.0014927022
+224,Price per square foot ($),GEO_state_numeric,0.0015009126
+225,PercentHighSchoolOrHigher,GEO_state_numeric,0.0012972017
+226,PercentBachelorsOrHigher,GEO_state_numeric,0.001491205
+227,State Tax Rate,GEO_state_numeric,0.0014772821
+228,Market Capitalization,COMPANY,0.004117353
+229,NumberofEmployees,COMPANY,0.0025284528
+230,Market Cap per Employee,COMPANY,0.0023091917
+231,Founded,COMPANY,0.0019346095
+232,month,TEMPORAL,0.0010858068
+233,year,TEMPORAL,0.0019663072
+234,stock_percchange_month,STOCK,0.0013954865
+235,stock_percchange_year,STOCK,0.0015098637
+236,sp500_percchange_month,STOCK,0.0012416616
+237,sp500_percchange_year,STOCK,0.0014337675
+238,summary_ld_FW,NLP_POS_tags,0.001622979
+239,summary_ld_POS,NLP_POS_tags,0.0016540384
+240,pros_ld_#,NLP_POS_tags,0.0016643676
+241,cons_ld_WP$,NLP_POS_tags,0.0
+242,cons_ld_#,NLP_POS_tags,0.0015702599
+243,cons_ld_LS,NLP_POS_tags,0.0010052754
+244,summary_ld_#,NLP_POS_tags,0.0
+245,pros_ld_WP$,NLP_POS_tags,0.0
+246,pros_ld_LS,NLP_POS_tags,0.0
+247,summary_ld_SYM,NLP_POS_tags,0.0
+248,summary_ld_WP$,NLP_POS_tags,0.0
+249,summary_ld_LS,NLP_POS_tags,0.0
+250,days from review to t0,TEMPORAL,0.0050576166
+251,days from foundation to t0,TEMPORAL,0.0
+252,days from foundation to review,TEMPORAL,0.0032053005
+253,State name_targenc_median,GEO_state_OHE,0.0024859742
+254,State name_targenc_mean,GEO_state_OHE,0.002634837
+255,Sector_targenc_median,TARGET_ENC,0.0
+256,Sector_targenc_mean,TARGET_ENC,0.003507024
+257,State name_Alabama_ohe,GEO_state_OHE,0.001503049
+258,State name_Alaska_ohe,GEO_state_OHE,0.0
+259,State name_Arizona_ohe,GEO_state_OHE,0.00179101
+260,State name_Arkansas_ohe,GEO_state_OHE,0.0012640507
+261,State name_Bermuda_ohe,GEO_state_OHE,0.0
+262,State name_California_ohe,GEO_state_OHE,0.0
+263,State name_Canada_ohe,GEO_state_OHE,0.0
+264,State name_Colorado_ohe,GEO_state_OHE,0.0015509768
+265,State name_Connecticut_ohe,GEO_state_OHE,0.0019238318
+266,State name_Delaware_ohe,GEO_state_OHE,0.0023163352
+267,State name_District of Columbia_ohe,GEO_state_OHE,0.0
+268,State name_Florida_ohe,GEO_state_OHE,0.0
+269,State name_Georgia_ohe,GEO_state_OHE,0.001579671
+270,State name_Hawaii_ohe,GEO_state_OHE,0.0015969722
+271,State name_Idaho_ohe,GEO_state_OHE,0.0015923369
+272,State name_Illinois_ohe,GEO_state_OHE,0.0015161777
+273,State name_Indiana_ohe,GEO_state_OHE,0.00201287
+274,State name_Iowa_ohe,GEO_state_OHE,0.002004272
+275,State name_Ireland_ohe,GEO_state_OHE,0.0014943719
+276,State name_Israel_ohe,GEO_state_OHE,0.0
+277,State name_Kansas_ohe,GEO_state_OHE,0.0
+278,State name_Kentucky_ohe,GEO_state_OHE,0.0012477229
+279,State name_Louisiana_ohe,GEO_state_OHE,0.0
+280,State name_Maine_ohe,GEO_state_OHE,0.0014691366
+281,State name_Maryland_ohe,GEO_state_OHE,0.0020048372
+282,State name_Massachusetts_ohe,GEO_state_OHE,0.0012394947
+283,State name_Michigan_ohe,GEO_state_OHE,0.0019083216
+284,State name_Minnesota_ohe,GEO_state_OHE,0.0013781104
+285,State name_Mississippi_ohe,GEO_state_OHE,0.0
+286,State name_Missouri_ohe,GEO_state_OHE,0.0019931453
+287,State name_Montana_ohe,GEO_state_OHE,0.00093502144
+288,State name_Nebraska_ohe,GEO_state_OHE,0.0014177102
+289,State name_Netherlands_ohe,GEO_state_OHE,0.0
+290,State name_Nevada_ohe,GEO_state_OHE,0.0
+291,State name_New Hampshire_ohe,GEO_state_OHE,0.0
+292,State name_New Jersey_ohe,GEO_state_OHE,0.0018106423
+293,State name_New Mexico_ohe,GEO_state_OHE,0.0017657591
+294,State name_New York_ohe,GEO_state_OHE,0.0013716107
+295,State name_North Carolina_ohe,GEO_state_OHE,0.0014578222
+296,State name_North Dakota_ohe,GEO_state_OHE,0.0
+297,State name_Ohio_ohe,GEO_state_OHE,0.0015744981
+298,State name_Oklahoma_ohe,GEO_state_OHE,0.0016849095
+299,State name_Oregon_ohe,GEO_state_OHE,0.0031190056
+300,State name_Pennsylvania_ohe,GEO_state_OHE,0.0015967247
+301,State name_Rhode Island_ohe,GEO_state_OHE,0.0016301672
+302,State name_South Carolina_ohe,GEO_state_OHE,0.0016491581
+303,State name_South Dakota_ohe,GEO_state_OHE,0.0
+304,State name_Switzerland_ohe,GEO_state_OHE,0.0
+305,State name_Tennessee_ohe,GEO_state_OHE,0.0058482946
+306,State name_Texas_ohe,GEO_state_OHE,0.0016658427
+307,State name_United Kingdom_ohe,GEO_state_OHE,0.0
+308,State name_Utah_ohe,GEO_state_OHE,0.0
+309,State name_Vermont_ohe,GEO_state_OHE,0.0
+310,State name_Virginia_ohe,GEO_state_OHE,0.002117003
+311,State name_Washington_ohe,GEO_state_OHE,0.002337119
+312,State name_West Virginia_ohe,GEO_state_OHE,0.0
+313,State name_Wisconsin_ohe,GEO_state_OHE,0.0
+314,State name_Wyoming_ohe,GEO_state_OHE,0.0
+315,Sector_Commercial Services_ohe,SECTOR_OHE,0.0016386495
+316,Sector_Communications_ohe,SECTOR_OHE,0.0019820856
+317,Sector_Consumer Durables_ohe,SECTOR_OHE,0.0016133509
+318,Sector_Consumer Non-Durables_ohe,SECTOR_OHE,0.0026683612
+319,Sector_Consumer Services_ohe,SECTOR_OHE,0.0023099636
+320,Sector_Distribution Services_ohe,SECTOR_OHE,0.0024827742
+321,Sector_Electronic Technology_ohe,SECTOR_OHE,0.0015256837
+322,Sector_Energy Minerals_ohe,SECTOR_OHE,0.0022965565
+323,Sector_Finance_ohe,SECTOR_OHE,0.0012504737
+324,Sector_Health Services_ohe,SECTOR_OHE,0.0
+325,Sector_Health Technology_ohe,SECTOR_OHE,0.001994063
+326,Sector_Industrial Services_ohe,SECTOR_OHE,0.0017658034
+327,Sector_Non-Energy Minerals_ohe,SECTOR_OHE,0.0016368531
+328,Sector_Process Industries_ohe,SECTOR_OHE,0.0019452573
+329,Sector_Producer Manufacturing_ohe,SECTOR_OHE,0.0020797544
+330,Sector_Retail Trade_ohe,SECTOR_OHE,0.0029921716
+331,Sector_Technology Services_ohe,SECTOR_OHE,0.0
+332,Sector_Transportation_ohe,SECTOR_OHE,0.009187118
+333,Sector_Utilities_ohe,SECTOR_OHE,0.0015682735

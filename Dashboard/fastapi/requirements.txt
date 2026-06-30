@@ -1,0 +1,13 @@
+fastapi==0.111.0
+uvicorn==0.30.1
+pydantic==2.7.4
+numpy==1.26.4
+pandas==2.2.2
+openpyxl==3.1.4
+scikit-learn==1.7.2
+xgboost==3.2.0
+nltk==3.8.1
+nrclex==3.0.0
+empath==0.89
+sentence-transformers==2.7.0
+yfinance==0.2.40

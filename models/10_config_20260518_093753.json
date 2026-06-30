@@ -1,0 +1,1 @@
+{"execution_id": "4-13", "feature_group": "group4", "pca_mode": null, "model_type": "random_forest", "n_iter": 40, "n_folds": 5, "best_params": {"n_estimators": 300, "min_samples_split": 2, "min_samples_leaf": 2, "max_features": "sqrt", "max_depth": null}}

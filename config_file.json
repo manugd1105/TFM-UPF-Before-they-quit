@@ -1,0 +1,66 @@
+{
+  "general":
+  {  
+	  "input files": 
+	  {
+		"reviews path": "./01_outputs_p1/01_Reviews",
+		"embeddings path": "./01_outputs_p1/02_Embeddings"
+	  },
+	  
+	  "execution type": "real",
+	  
+	  "random seed": 20
+  },
+  
+  "TVT split":
+  {
+	  "data_split_percentages":
+	  {
+		  "train": 0.8,
+		  "test": 0.2
+	  },
+	  
+	  "max allowed difference output": 0.25,
+	  "max allowed difference numerical iqr": 0.5,
+	  "max allowed difference categorical": 0.25,
+	  "collumns to skip": ["overall_rating_cat", "Unnamed: 0", "review_id", "summary", "date", "job_title", "overall_rating", "pros", "cons", "author_location", "wl_balance", "culture_values", "diversity_inclusion", "career_opportunities", "compensation_benefits", "senior_management", "company", "Company", "author_location_filledhq", "author_location_filledhq_state", "Acronym", "Ticker"],
+	  "category minimum percentage": 0.1
+  },
+  
+  "missing values":
+  {
+	  "fill linguistic dimensions": 0.0
+  },
+  
+  "outliers":
+  {
+	  "interquartile range multiplier": 10
+  },
+  
+  "feature engineering":
+  {
+	  "date to take as t0": "2024-01-01"
+  },
+  
+  "categorical features":
+  {
+	  "target encoding":
+	  {
+		"features": ["State name", "Sector"],
+		"operations": ["median", "mean"],
+		"output feature": "overall_rating"
+	  },
+	  
+	  "one hot encoding":
+	  {
+		  "settings": {
+			  "handle_unkown": "ignore"
+		  },
+		  "features": ["State name", "Sector"]
+	  }
+  }
+  
+  
+  
+  
+}

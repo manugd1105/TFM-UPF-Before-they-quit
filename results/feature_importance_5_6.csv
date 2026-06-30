@@ -1,0 +1,335 @@
+feature,importance
+cons_sim_ODI_Worthlessness,0.07074656
+cons_charlen,0.068949014
+pros_nltk_sia,0.031562112
+pros_charlen,0.023540454
+cons_emolex_disgust,0.023304176
+summary_ld_RB,0.021107802
+summary_ld_TO,0.019081943
+cons_sim_ODI_Psycomotor alterations,0.016969683
+cons_nltk_sia,0.012751759
+pros_sim_JDI_Coworkers,0.012629865
+cons_sim_JDI_Supervision,0.012047273
+cons_ld_MD,0.011537614
+cons_empath_swearing_terms,0.00957538
+Sector_Transportation_ohe,0.009187118
+summary_ld_JJS,0.008763985
+cons_ld_NNP,0.008381625
+summary_ld_VBN,0.008072348
+pros_sim_ODI_Fatigue,0.0077270013
+cons_emolex_trust,0.007329133
+summary_ld_JJ,0.0068664313
+summary_ld_DT,0.0068564597
+pros_emolex_positive,0.0066722804
+cons_emolex_anger,0.0059370217
+State name_Tennessee_ohe,0.0058482946
+pros_sim_JDI_Pay,0.005834824
+summary_ld_NNP,0.005629554
+cons_sim_ODI_Fatigue,0.0053334394
+pros_ld_EX,0.0052006003
+summary_ld_VB,0.005183632
+days from review to t0,0.0050576166
+summary_ld_RP,0.004960179
+summary_charlen,0.004918348
+summary_ld_NN,0.004800274
+pros_ld_MD,0.0047964384
+summary_ld_VBZ,0.004763028
+summary_ld_.,0.0047203037
+pros_sim_JDI_Work itself,0.0046981624
+summary_ld_RBS,0.0046516447
+pros_emolex_surprise,0.0045253197
+Market Capitalization,0.004117353
+cons_ld_EX,0.0040560924
+"pros_ld_,",0.0040143616
+cons_sim_ODI_Sleep alterations,0.003909306
+summary_ld_PRP,0.0038310504
+pros_ld_VBP,0.0037755514
+pros_ld_DT,0.003756115
+"cons_ld_,",0.0036396456
+cons_ld_NN,0.0035310767
+Sector_targenc_mean,0.003507024
+pros_ld_VBD,0.0034630538
+cons_ld_CD,0.0033220195
+cons_empath_occupation,0.0033209778
+cons_ld_VB,0.0032315615
+days from foundation to review,0.0032053005
+summary_ld_WDT,0.0031546673
+cons_sim_ODI_Appetite alterations,0.0031497153
+State name_Oregon_ohe,0.0031190056
+cons_ld_.,0.0030985142
+cons_sim_ODI_Anhedonia,0.0030778595
+cons_sim_JDI_Work itself,0.0030711442
+pros_ld_NNS,0.003023792
+summary_ld_VBP,0.0029927653
+Sector_Retail Trade_ohe,0.0029921716
+summary_ld_JJR,0.0029728655
+cons_ld_JJR,0.002953126
+pros_sim_JDI_Supervision,0.0029270933
+cons_wordlen,0.0028581293
+summary_ld_VBG,0.0028180152
+cons_emolex_positive,0.0027937654
+pros_emolex_disgust,0.0027408963
+summary_ld_VBD,0.0027041987
+Sector_Consumer Non-Durables_ohe,0.0026683612
+pros_ld_PRP$,0.0026543338
+State name_targenc_mean,0.002634837
+cons_ld_DT,0.0026235278
+cons_ld_PRP,0.0025864518
+summary_ld_RBR,0.0025842458
+cons_ld_TO,0.002563429
+pros_empath_suffering,0.002530964
+NumberofEmployees,0.0025284528
+summary_ld_IN,0.0025031755
+State name_targenc_median,0.0024859742
+Sector_Distribution Services_ohe,0.0024827742
+cons_sim_ODI_Suicidal ideation,0.0024797674
+cons_empath_fun,0.0024674141
+summary_ld_MD,0.002425615
+pros_ld_PRP,0.0023932618
+summary_wordlen,0.00238413
+pros_ld_JJ,0.0023634115
+State name_Washington_ohe,0.002337119
+pros_ld_CC,0.002323439
+State name_Delaware_ohe,0.0023163352
+Sector_Consumer Services_ohe,0.0023099636
+Market Cap per Employee,0.0023091917
+Sector_Energy Minerals_ohe,0.0022965565
+cons_sim_JDI_Promotion,0.0022878975
+pros_empath_achievement,0.0022537422
+pros_ld_VB,0.0022029968
+ODI_related_vocab_cons,0.0022007457
+pros_empath_vacation,0.002166026
+summary_ld_CD,0.0021627943
+pros_ld_JJR,0.0021558206
+pros_sim_ODI_Appetite alterations,0.002138082
+pros_ld_NN,0.0021302928
+State name_Virginia_ohe,0.002117003
+cons_empath_vacation,0.002110192
+pros_empath_health,0.0020899402
+cons_empath_money,0.0020812198
+Sector_Producer Manufacturing_ohe,0.0020797544
+pros_empath_sleep,0.0020765755
+pros_ld_WDT,0.002067229
+pros_ld_FW,0.0020670118
+summary_ld_WP,0.0020274976
+summary_ld_NNS,0.0020249833
+pros_empath_occupation,0.0020248052
+pros_empath_negative_emotion,0.002020424
+pros_ld_RBS,0.0020181763
+cons_empath_wealthy,0.0020168128
+pros_empath_home,0.0020158095
+State name_Indiana_ohe,0.00201287
+cons_ld_WP,0.0020097238
+State name_Maryland_ohe,0.0020048372
+State name_Iowa_ohe,0.002004272
+cons_empath_help,0.0019988948
+pros_sim_ODI_Worthlessness,0.0019977386
+Sector_Health Technology_ohe,0.001994063
+State name_Missouri_ohe,0.0019931453
+cons_sim_ODI_Cognitive impairment,0.0019858137
+cons_sim_JDI_Coworkers,0.0019850966
+Sector_Communications_ohe,0.0019820856
+pros_empath_office,0.0019700744
+year,0.0019663072
+pros_sim_ODI_Anhedonia,0.001959349
+pros_sim_ODI_Psycomotor alterations,0.0019513371
+cons_ld_NNPS,0.0019507693
+cons_empath_negative_emotion,0.0019457992
+Sector_Process Industries_ohe,0.0019452573
+cons_empath_home,0.0019376087
+Founded,0.0019346095
+summary_ld_CC,0.0019342904
+State name_Connecticut_ohe,0.0019238318
+cons_empath_sleep,0.0019230571
+cons_ld_RBS,0.0019208946
+pros_ld_NNP,0.0019109499
+pros_sim_ODI_Depressed mood,0.0019084939
+State name_Michigan_ohe,0.0019083216
+cons_empath_family,0.0019005367
+cons_ld_``,0.001888399
+cons_emolex_sadness,0.0018730529
+cons_ld_PRP$,0.0018691758
+pros_ld_WP,0.0018688613
+pros_sim_ODI_Suicidal ideation,0.0018679181
+pros_ld_WRB,0.0018666179
+cons_empath_rage,0.0018622223
+cons_ld_),0.0018565604
+cons_emolex_negative,0.0018489115
+cons_empath_payment,0.0018473692
+cons_empath_suffering,0.0018445427
+pros_sim_JDI_Promotion,0.0018410252
+cons_sim_JDI_Pay,0.0018389059
+cons_sim_ODI_Depressed mood,0.0018382783
+pros_ld_$,0.001834739
+cons_ld_VBD,0.0018324384
+ODI_related_vocab_pros,0.0018285983
+pros_ld_CD,0.0018135046
+cons_ld_WRB,0.0018127322
+State name_New Jersey_ohe,0.0018106423
+pros_sim_ODI_Cognitive impairment,0.0018100593
+pros_empath_leisure,0.0018081492
+pros_sim_ODI_Sleep alterations,0.0018054078
+cons_ld_POS,0.0018014696
+pros_empath_fun,0.0017942237
+cons_ld_IN,0.0017916702
+State name_Arizona_ohe,0.00179101
+cons_empath_health,0.0017901205
+pros_empath_wealthy,0.0017869219
+cons_ld_VBN,0.0017687454
+pros_emolex_anger,0.0017665084
+Sector_Industrial Services_ohe,0.0017658034
+State name_New Mexico_ohe,0.0017657591
+pros_empath_domestic_work,0.0017647356
+cons_ld_$,0.0017631715
+pros_emolex_negative,0.0017538784
+AverageTemperatureAvgHighF,0.0017431702
+GDP per capita,0.0017424425
+cons_ld_UH,0.001733047
+pros_ld_PDT,0.0017314308
+cons_ld_WDT,0.0017291727
+cons_empath_exercise,0.0017277021
+pros_empath_payment,0.0017237752
+pros_empath_money,0.0017208294
+summary_ld_NNPS,0.0017200124
+cons_ld_JJ,0.0017107598
+pros_emolex_fear,0.0017084987
+cons_ld_NNS,0.0017078357
+cons_emolex_surprise,0.0016990837
+summary_ld_PRP$,0.0016962376
+pros_empath_family,0.0016909679
+pros_ld_``,0.0016898689
+pros_emolex_sadness,0.0016853473
+State name_Oklahoma_ohe,0.0016849095
+"summary_ld_,",0.001684778
+cons_ld_(,0.0016813957
+cons_ld_VBP,0.0016801613
+cons_ld_RP,0.0016771628
+pros_ld_VBZ,0.0016748414
+pros_ld_RBR,0.0016726118
+pros_empath_exercise,0.0016716281
+State name_Texas_ohe,0.0016658427
+pros_ld_UH,0.0016655554
+pros_ld_#,0.0016643676
+summary_ld_POS,0.0016540384
+summary_ld_``,0.0016533739
+State name_South Carolina_ohe,0.0016491581
+pros_ld_POS,0.0016397041
+Sector_Commercial Services_ohe,0.0016386495
+Sector_Non-Energy Minerals_ohe,0.0016368531
+cons_empath_leisure,0.0016311326
+State name_Rhode Island_ohe,0.0016301672
+cons_ld_JJS,0.0016290135
+cons_ld_CC,0.0016281692
+summary_ld_FW,0.001622979
+pros_ld_RP,0.0016199271
+pros_ld_VBN,0.0016166567
+Sector_Consumer Durables_ohe,0.0016133509
+summary_ld_$,0.0016038243
+cons_ld_FW,0.0016029357
+State name_Hawaii_ohe,0.0015969722
+State name_Pennsylvania_ohe,0.0015967247
+State name_Idaho_ohe,0.0015923369
+pros_emolex_joy,0.0015902085
+cons_empath_domestic_work,0.0015838032
+State name_Georgia_ohe,0.001579671
+cons_ld_PDT,0.0015789245
+cons_ld_VBG,0.0015773928
+State name_Ohio_ohe,0.0015744981
+cons_emolex_fear,0.0015705689
+cons_ld_#,0.0015702599
+Sector_Utilities_ohe,0.0015682735
+pros_empath_help,0.0015520897
+State name_Colorado_ohe,0.0015509768
+pros_wordlen,0.0015473067
+Democrat/lean Dem.,0.0015403416
+pros_ld_(,0.0015314519
+cons_empath_office,0.0015290738
+No lean,0.0015290376
+Sector_Electronic Technology_ohe,0.0015256837
+pros_ld_.,0.001525566
+State name_Illinois_ohe,0.0015161777
+cons_ld_RBR,0.0015142179
+cons_ld_RB,0.0015134452
+cons_emolex_joy,0.0015127363
+stock_percchange_year,0.0015098637
+pros_ld_RB,0.0015063137
+State name_Alabama_ohe,0.001503049
+Price per square foot ($),0.0015009126
+summary_ld_(,0.0014982055
+State name_Ireland_ohe,0.0014943719
+Crime index,0.0014927022
+PercentBachelorsOrHigher,0.001491205
+pros_ld_VBG,0.001487416
+pros_ld_JJS,0.0014835668
+State Tax Rate,0.0014772821
+summary_ld_WRB,0.0014749363
+State name_Maine_ohe,0.0014691366
+summary_ld_EX,0.001463827
+State name_North Carolina_ohe,0.0014578222
+Precipitation,0.0014520382
+pros_ld_NNPS,0.0014402777
+pros_ld_TO,0.001435935
+sp500_percchange_year,0.0014337675
+State name_Nebraska_ohe,0.0014177102
+pros_empath_swearing_terms,0.0014170742
+Population,0.0014085091
+Republican/lean Rep.,0.0013975076
+stock_percchange_month,0.0013954865
+cons_ld_VBZ,0.0013942082
+State name_Minnesota_ohe,0.0013781104
+State name_New York_ohe,0.0013716107
+summary_ld_UH,0.0013599838
+summary_ld_PDT,0.001358355
+pros_ld_),0.0013330266
+AverageTemperatureAvgLowF,0.0012979078
+PercentHighSchoolOrHigher,0.0012972017
+pros_emolex_trust,0.0012814918
+AverageTemperatureF,0.0012668968
+State name_Arkansas_ohe,0.0012640507
+Sector_Finance_ohe,0.0012504737
+State name_Kentucky_ohe,0.0012477229
+pros_ld_IN,0.0012454839
+sp500_percchange_month,0.0012416616
+State name_Massachusetts_ohe,0.0012394947
+month,0.0010858068
+cons_ld_SYM,0.0010693234
+cons_ld_LS,0.0010052754
+State name_Montana_ohe,0.00093502144
+pros_empath_rage,0.0008644585
+summary_ld_),0.0008148012
+cons_emolex_anticip,0.0
+State name_Utah_ohe,0.0
+State name_West Virginia_ohe,0.0
+State name_Wyoming_ohe,0.0
+State name_Wisconsin_ohe,0.0
+Sector_Health Services_ohe,0.0
+Sector_Technology Services_ohe,0.0
+State name_Vermont_ohe,0.0
+pros_ld_SYM,0.0
+summary_ld_LS,0.0
+State name_United Kingdom_ohe,0.0
+State name_Switzerland_ohe,0.0
+days from foundation to t0,0.0
+summary_ld_SYM,0.0
+pros_ld_LS,0.0
+Sector_targenc_median,0.0
+pros_ld_WP$,0.0
+State name_Alaska_ohe,0.0
+summary_ld_#,0.0
+State name_Bermuda_ohe,0.0
+State name_California_ohe,0.0
+State name_Canada_ohe,0.0
+cons_ld_WP$,0.0
+State name_District of Columbia_ohe,0.0
+State name_Florida_ohe,0.0
+State name_Israel_ohe,0.0
+State name_Kansas_ohe,0.0
+State name_Louisiana_ohe,0.0
+State name_Mississippi_ohe,0.0
+State name_Netherlands_ohe,0.0
+State name_Nevada_ohe,0.0
+summary_ld_WP$,0.0
+State name_North Dakota_ohe,0.0
+pros_emolex_anticip,0.0
+State name_South Dakota_ohe,0.0
+State name_New Hampshire_ohe,0.0
