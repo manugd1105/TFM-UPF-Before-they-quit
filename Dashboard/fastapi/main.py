@@ -358,7 +358,19 @@ def predict(review: ReviewInput):
     X = np.array(vector).reshape(1, -1)
 
     # ── Predicción ───────────────────────────────────────────────────────────
-    pred_raw = float(MODEL.predict(X)[0])   # XGBRegressor → float 1-5
+    model_pred = float(MODEL.predict(X)[0])   # XGBRegressor → float 1-5
+
+    # Blend con los ratings explícitos del usuario (1-5) si los ha rellenado
+    user_ratings = [
+        review.wl_balance, review.culture_values, review.diversity_inclusion,
+        review.career_opportunities, review.compensation_benefits, review.senior_management,
+    ]
+    # Solo mezclar si el usuario ha dado ratings (no todos son el default 3.0)
+    user_avg = sum(user_ratings) / len(user_ratings)
+    if user_ratings != [3.0, 3.0, 3.0, 3.0, 3.0, 3.0]:
+        pred_raw = 0.5 * model_pred + 0.5 * user_avg
+    else:
+        pred_raw = model_pred
 
     # Binarización: >= 4 → Alto, < 4 → Bajo
     satisfaction = "Alto" if pred_raw >= 4.0 else "Bajo"
