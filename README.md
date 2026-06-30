@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TFM — Predicción del bienestar laboral a partir de reseñas de Glassdoor
 
 **Trabajo de Fin de Máster — UNED**  
@@ -280,3 +281,7 @@ export GCP_BUCKET="tu-bucket"
 ```
 
 No hay credenciales hardcodeadas en el código. La carpeta `.claude/` (contexto de sesión local) está excluida del repo mediante `.gitignore`.
+=======
+# TFM-UPF-Before-they-quit
+TFM UPF - Before they quit
+>>>>>>> 7677e74347730e3b390247b327a24989cc5c5663
